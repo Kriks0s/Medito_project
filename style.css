@@ -1,16 +1,27 @@
-body {background: rgb(48,47,47); background: linear-gradient(90deg, rgba(48,47,47,1) 0%, rgba(89,89,99,1) 51%, rgba(179,179,179,1) 100%); margin: 0%; font-size: 120%; font-family: Helvetica, sans-serif; width: 100%;}
+body {background: rgb(48,47,47); 
+    background: linear-gradient(90deg, rgba(48,47,47,1) 0%, rgba(89,89,99,1) 51%, rgba(179,179,179,1) 100%); 
+    margin: 0%; 
+    font-size: 120%; 
+    font-family: Helvetica, sans-serif; 
+    width: 100%;
+}
 #main {float: left;}
 h1 {text-align: center;}
 #container  {margin-left: 10%; margin-right: 10%;}
 header {color: rgb(224, 216, 216);}
 #description, #updates, #comments, #questions {width: 55%; color: rgb(224, 216, 216);}
-#photo {border-radius: 35px; float: left;}
+#photo {border-radius: 35px;}
+#photo img {height: 50vh; width: 90vh;}
 hr {height:2px;border-width:0;color:black;background-color:black;}
 ul {margin-right: 25px;}
 h4 {color: rgb(224, 216, 216);}
+
+/* right box / counter */
 #counter 
     {
-    background-color: white; width: 30%; height: 45rem; 
+    background-color: white; 
+    width: 30%; 
+    height: 60vh; 
     -webkit-box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
     -moz-box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
     box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
@@ -21,6 +32,7 @@ h4 {color: rgb(224, 216, 216);}
     margin: 20px;
     border-radius: 20px;
     }
+
 .list1 {display: inline; float: right; margin: 5px;}
 .Btn {font-size: 120%; border-radius: 15px; margin: 2px; border: 2px solid rgb(83, 81, 81); background-color: azure; padding: 3px 5px 3px 5px;}
 .Btn:hover
@@ -56,6 +68,8 @@ select  {font-size: 130%; cursor: pointer; background-color: white;}
         font-size: 105%;
     }
 #myBtn:hover {text-decoration: none;}  
+
+/* footer */
 footer {
     position: relative;
     left: 0;
