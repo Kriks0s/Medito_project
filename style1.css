@@ -1,0 +1,8 @@
+body {margin: 0px;}
+footer {background-color: rgb(139, 157, 168); clear: both; width: 100%; min-height: 160px; flex-wrap: wrap; height: auto; padding: 20px;}
+.flex-container {align-content: space-around; flex-wrap: wrap;}
+.flex-item {flex-grow: 1; flex-basis: 300px; display: inline;}
+#app, #socials {font-size: 120%; font-weight: bold; margin: 20px; height: auto;}
+.socials {margin: 3px;}
+#left {float: left; display: flex;}
+#right {float: right; display: flex;}
