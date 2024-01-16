@@ -17,11 +17,16 @@ ul {margin-right: 25px;}
 h4 {color: rgb(224, 216, 216);}
 
 /* right box / counter */
+#right {
+  height: 75vh;
+  width: 50vh;
+  float: right;
+}
 #counter 
     {
     background-color: white; 
-    width: 30%; 
-    height: 60vh; 
+    width: 100%; 
+    height: 100%; 
     -webkit-box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
     -moz-box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
     box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
