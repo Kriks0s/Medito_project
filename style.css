@@ -1,32 +1,30 @@
 body {background: rgb(48,47,47); 
-    background: linear-gradient(90deg, rgba(48,47,47,1) 0%, rgba(89,89,99,1) 51%, rgba(179,179,179,1) 100%); 
+    background: linear-gradient(90deg, #8b8bae  0%, #ece2d0 51%, #e78f8e 100%); 
     margin: 0%; 
     font-size: 120%; 
     font-family: Helvetica, sans-serif; 
     width: 100%;
 }
-#main {float: left;}
-h1 {text-align: center;}
-#container  {margin-left: 10%; margin-right: 10%;}
-header {color: rgb(224, 216, 216);}
-#description, #updates, #comments, #questions {width: 55%; color: rgb(224, 216, 216);}
-#photo {border-radius: 35px;}
-#photo img {height: 50vh; width: 90vh;}
 hr {height:2px;border-width:0;color:black;background-color:black;}
 ul {margin-right: 25px;}
-h4 {color: rgb(224, 216, 216);}
+h4 {color: rgb(87, 87, 87);}
+h1 {text-align: center;}
+header {color: rgb(87, 87, 87);}
+select  {font-size: 130%; cursor: pointer; background-color: white; width: 70vh;}
+
+#container  {margin-left: 10%; margin-right: 10%;}
+#main {float: left; width: 70%;}
+#description, #updates, #comments, #questions {width: 55%; color: rgb(87, 87, 87);}
+
+/* photo */
+#photo img {height: 50%; width: 100%; border-radius: 25px;}
 
 /* right box / counter */
-#right {
-  height: 75vh;
-  width: 50vh;
-  float: right;
-}
 #counter 
     {
     background-color: white; 
-    width: 100%; 
-    height: 100%; 
+    height: 75vh;
+    width: 50vh; 
     -webkit-box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
     -moz-box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
     box-shadow: 1px 17px 28px 13px rgba(66, 68, 90, 1);
@@ -51,13 +49,12 @@ h4 {color: rgb(224, 216, 216);}
     transition: all 0.3s ease-in;
     }
 ::-webkit-scrollbar {background-color: rgba(179,179,179,1);width: 20px;}
-::-webkit-scrollbar-track {border-radius: 10px;background-color: rgba(179,179,179,1);}
-::-webkit-scrollbar-thumb {background: rgb(136, 130, 130);}
+::-webkit-scrollbar-track {border-radius: 10px;background-color: #e78f8e;}
+::-webkit-scrollbar-thumb {background: #c07776;}
 ::-webkit-scrollbar-thumb:hover {background: rgb(85, 83, 83);}
 #app {font-size: 120%; font-weight: bold; float: right; margin-right: 20px;}
 #socials {font-size: 120%; font-weight: bold; float: left; margin-left: 20px;}
 .socials {margin: 3px;}
-select  {font-size: 130%; cursor: pointer; background-color: white;}
 #more {display: none; position: relative;}
 #myBtn 
     {
@@ -81,37 +78,8 @@ footer {
     bottom: 0;
     right: 0;
     padding-bottom: 20px;
-    background: #0a1535;
+    background: #8b8bae;
     color: #f9f9f9;
-  }
-footer article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 20px 50px 40px;
-    margin: -99px 20px 20px;
-    border-radius: 10px;
-    background: linear-gradient(90deg, #773ecb, #2663ff);
-  }
-footer article h2 {
-    font-weight: 400;
-    color: rgb(255 255 255 / 70%);
-  }
-footer article button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 0 40px 0 44px;
-    width: 100%;
-    background: #0a1536;
-    border: 0;
-    border-radius: 30px;
-    color: #f9f9f9;
-    font-family: inherit;
-    font-size: 16px;
   }
 footer section {
     padding: 0 50px;
